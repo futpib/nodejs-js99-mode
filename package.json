@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-js99-mode",
+  "version": "1.0.0",
+  "description": "The other half of the emacs-js99-mode",
+  "main": "index.js",
+  "repository": "http://github.com/futpib/nodejs-js99-mode.git",
+  "author": "futpib <futpib@gmail.com>",
+  "license": "GPL-3.0+ OR MIT",
+  "dependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "babylon": "^6.17.2",
+    "eval-slave": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  }
+}
