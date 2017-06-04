@@ -20,10 +20,6 @@ Object {
       Node {
         "declaration": Node {
           "end": 17,
-          "extra": Object {
-            "raw": "42",
-            "rawValue": 42,
-          },
           "loc": SourceLocation {
             "end": Position {
               "column": 17,
@@ -34,8 +30,9 @@ Object {
               "line": 1,
             },
           },
+          "raw": "42",
           "start": 15,
-          "type": "NumericLiteral",
+          "type": "Literal",
           "value": 42,
         },
         "end": 17,
@@ -53,7 +50,6 @@ Object {
         "type": "ExportDefaultDeclaration",
       },
     ],
-    "directives": Array [],
     "end": 17,
     "loc": SourceLocation {
       "end": Position {

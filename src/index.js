@@ -8,6 +8,7 @@ const defaultOptions = {
 	allowImportExportEverywhere: false,
 	allowReturnOutsideFunction: false,
 	plugins: [
+		'estree',
 		'asyncGenerators',
 		'classConstructorCall',
 		'classProperties',
