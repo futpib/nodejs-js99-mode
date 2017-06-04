@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[anonymous] 1`] = `
+Node {
+  "comments": Array [],
+  "end": 17,
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 17,
+      "line": 1,
+    },
+    "start": Position {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "program": Node {
+    "body": Array [
+      Node {
+        "declaration": Node {
+          "end": 17,
+          "extra": Object {
+            "raw": "42",
+            "rawValue": 42,
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 17,
+              "line": 1,
+            },
+            "start": Position {
+              "column": 15,
+              "line": 1,
+            },
+          },
+          "start": 15,
+          "type": "NumericLiteral",
+          "value": 42,
+        },
+        "end": 17,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 17,
+            "line": 1,
+          },
+          "start": Position {
+            "column": 0,
+            "line": 1,
+          },
+        },
+        "start": 0,
+        "type": "ExportDefaultDeclaration",
+      },
+    ],
+    "directives": Array [],
+    "end": 17,
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 17,
+        "line": 1,
+      },
+      "start": Position {
+        "column": 0,
+        "line": 1,
+      },
+    },
+    "sourceType": "module",
+    "start": 0,
+    "type": "Program",
+  },
+  "start": 0,
+  "tokens": Array [
+    Token {
+      "end": 6,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 6,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "start": 0,
+      "type": KeywordTokenType {
+        "beforeExpr": false,
+        "binop": null,
+        "isAssign": false,
+        "isLoop": false,
+        "keyword": "export",
+        "label": "export",
+        "postfix": false,
+        "prefix": false,
+        "rightAssociative": false,
+        "startsExpr": false,
+        "updateContext": null,
+      },
+      "value": "export",
+    },
+    Token {
+      "end": 14,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 14,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 7,
+          "line": 1,
+        },
+      },
+      "start": 7,
+      "type": KeywordTokenType {
+        "beforeExpr": true,
+        "binop": null,
+        "isAssign": false,
+        "isLoop": false,
+        "keyword": "default",
+        "label": "default",
+        "postfix": false,
+        "prefix": false,
+        "rightAssociative": false,
+        "startsExpr": false,
+        "updateContext": null,
+      },
+      "value": "default",
+    },
+    Token {
+      "end": 17,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 17,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 15,
+          "line": 1,
+        },
+      },
+      "start": 15,
+      "type": TokenType {
+        "beforeExpr": false,
+        "binop": null,
+        "isAssign": false,
+        "isLoop": false,
+        "keyword": undefined,
+        "label": "num",
+        "postfix": false,
+        "prefix": false,
+        "rightAssociative": false,
+        "startsExpr": true,
+        "updateContext": null,
+      },
+      "value": 42,
+    },
+    Token {
+      "end": 17,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 17,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 17,
+          "line": 1,
+        },
+      },
+      "start": 17,
+      "type": TokenType {
+        "beforeExpr": false,
+        "binop": null,
+        "isAssign": false,
+        "isLoop": false,
+        "keyword": undefined,
+        "label": "eof",
+        "postfix": false,
+        "prefix": false,
+        "rightAssociative": false,
+        "startsExpr": false,
+        "updateContext": null,
+      },
+      "value": undefined,
+    },
+  ],
+  "type": "File",
+}
+`;

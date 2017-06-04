@@ -4,5 +4,5 @@ import test from 'ava';
 import {parse} from '../';
 
 test(t => {
-	t.truthy(parse);
+	t.snapshot(parse('export default 42'));
 });
