@@ -1,3 +1,4 @@
 
-export {parse} from 'babylon';
-export default null;
+const {parse} = require('babylon');
+
+module.exports = {parse};
