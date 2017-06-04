@@ -1,5 +1,5 @@
 
-const {defaults} = require('lodash/fp');
+const {defaults, omit} = require('lodash/fp');
 
 const babylon = require('babylon');
 
@@ -24,7 +24,8 @@ const defaultOptions = {
 };
 
 function parse(code, options) {
-	return babylon.parse(code, defaults(options, defaultOptions));
+	const result = babylon.parse(code, defaults(options, defaultOptions));
+	return omit(['tokens'], result);
 }
 
 module.exports = {parse};
